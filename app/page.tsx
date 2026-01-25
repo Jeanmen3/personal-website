@@ -159,7 +159,7 @@ export default function Page() {
         <h2 className="text-2xl font-semibold tracking-tight">Leadership & Impact</h2>
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           {[
-            { k: "Startup", v: "Reduced cycle time by X weeks", s: "Parallelized submissions; tightened vendor + regulatory workflows." },
+            { k: "Startup", v: "Reduced cycle time", s: "Parallelized submissions; tightened vendor + regulatory workflows." },
             { k: "Execution", v: "Stabilized complex dependencies", s: "Resolved supply/regulatory bottlenecks and restored program momentum." },
             { k: "Infrastructure", v: "Built scalable SOP/MOP stack", s: "Standardized governance, documentation, and handoffs across studies." },
           ].map((x) => (
@@ -221,7 +221,7 @@ export default function Page() {
               Email me
             </a>
             <a className="rounded-full border border-zinc-300 px-6 py-3 text-sm font-medium hover:border-zinc-400"
-               href="https://www.linkedin.com/"
+               href="https://www.linkedin.com/in/jean-mendez-a0390a100/"
                target="_blank" rel="noreferrer">
               LinkedIn
             </a>
