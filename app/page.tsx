@@ -1,5 +1,6 @@
 // app/page.tsx
 import Link from "next/link";
+import Image from "next/image";
 
 const publications = [
   {
@@ -71,28 +72,42 @@ export default function Page() {
 
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 pt-16 pb-10">
-        <p className="text-sm font-medium text-zinc-600">Clinical Operations & Development</p>
-        <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
-          Director-level trial execution, built for speed and control.
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-700">
-          I lead inspection-ready clinical trial operations and translate clinical strategy into measurable execution.
-          Experienced across academic, VA, and industry-sponsored programs, with strong cross-functional leadership and
-          rigorous governance.
-        </p>
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <a
-            className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white hover:bg-zinc-800"
-            href="#impact"
-          >
-            View leadership impact
-          </a>
-          <a
-            className="inline-flex items-center justify-center rounded-full border border-zinc-300 px-6 py-3 text-sm font-medium hover:border-zinc-400"
-            href="#publications"
-          >
-            View publications
-          </a>
+        <div className="grid gap-8 md:grid-cols-[2fr_1fr] md:items-center">
+          <div>
+            <p className="text-sm font-medium text-zinc-600">Clinical Operations & Development</p>
+            <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
+              Director-level trial execution, built for speed and control.
+            </h1>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-700">
+              I lead inspection-ready clinical trial operations and translate clinical strategy into measurable execution.
+              Experienced across academic, VA, and industry-sponsored programs, with strong cross-functional leadership and
+              rigorous governance.
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a
+                className="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white hover:bg-zinc-800"
+                href="#impact"
+              >
+                View leadership impact
+              </a>
+              <a
+                className="inline-flex items-center justify-center rounded-full border border-zinc-300 px-6 py-3 text-sm font-medium hover:border-zinc-400"
+                href="#publications"
+              >
+                View publications
+              </a>
+            </div>
+          </div>
+          <div className="flex justify-center md:justify-end">
+            <Image
+              src="/headshot.jpg"
+              alt="Jean Mendez"
+              width={280}
+              height={350}
+              className="rounded-2xl object-cover"
+              priority
+            />
+          </div>
         </div>
 
         <div className="mt-10 grid gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 p-6 md:grid-cols-3">
