@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Redeploy after making changes
+
+run the following commands to commit the changes and push to the remote Github Repo, which the Vercel app is configured to sync with. The changes, once commited and pushed to the remote repo, will be automatically picked up by the Vercel app and reflected on the app url: https://jeanmendezmd.com
+
+```bash
+git add .
+
+git commit -m "example message" # replace the message body with what the change actually so that you can read in the future
+
+git push
+```
