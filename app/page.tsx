@@ -76,12 +76,10 @@ export default function Page() {
           <div>
             <p className="text-sm font-medium text-zinc-600">Clinical Operations & Development</p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">
-              Director-level trial execution, built for speed and control.
+              Clinical trial execution, built for speed and control.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-700">
-              I lead inspection-ready clinical trial operations and translate clinical strategy into measurable execution.
-              Experienced across academic, VA, and industry-sponsored programs, with strong cross-functional leadership and
-              rigorous governance.
+            <p className="mt-6 max-w-3xl text-lg leading-relaxed text-zinc-700">I lead inspection-ready clinical trial operations and translate clinical strategy into measurable execution. With a proven track record of leadership and operational expertise spanning biotech, industry-sponsored clinical development, and academic and VA research programs, I drive cross-functional execution, operational excellence, and GCP-compliant trial delivery.
+              
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
